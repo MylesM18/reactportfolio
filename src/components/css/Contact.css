@@ -1,0 +1,16 @@
+.container{
+    margin: 20vw;
+}
+
+.box{
+    width: 300px;
+    animation-name: contact;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+@keyframes contact {
+    0% {opacity: 0}
+    100% {opacity: 1}
+}

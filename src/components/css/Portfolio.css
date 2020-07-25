@@ -1,0 +1,30 @@
+.grid{
+    display: flex;
+    margin-top: 10vw;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.inspire{
+    box-shadow: 0px 30px 30px -0.3px rgba(11, 43, 230, 0.3);
+    animation-name: inspire;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    margin-right: -3000px
+}
+
+@keyframes inspire{
+    0% {margin-right: -3000px}
+    100% {margin-right: 0px;}
+}
+
+
+.workout{
+    box-shadow: 0px 30px 30px -0.3px rgba(216, 22, 8, 0.3);
+}
+
+.budget{
+    box-shadow: 0px 30px 30px -0.3px rgba(3, 129, 55, 0.3);
+}
